@@ -1,3 +1,10 @@
-.app-left-col {
-    background-color: #FF0000;
+.app-left-col #country_drop_down .Select-control{
+    height: auto !important;
 }
+.app-left-col #country_drop_down .Select.Select--multi{
+    width: inherit !important;
+}
+.app-left-col #country_drop_down .Select-multi-value-wrapper{
+    width: inherit !important;
+}
+

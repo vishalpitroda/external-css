@@ -1,5 +1,19 @@
+.head1 h1{
+    padding: 2rem;
+    margin: auto;
+}
+
+head2, .sir-cont{
+    padding: 2em;
+}
+
+.app-left-col #country_drop_down .Select-clear{
+    vertical-align: middle;
+}
+
 .app-left-col #country_drop_down .Select-control{
     height: auto !important;
+    padding: 2px;
 }
 .app-left-col #country_drop_down .Select.Select--multi{
     width: inherit !important;

@@ -47,14 +47,14 @@ body{
     background-color: #009933
 }
 
-.app-left-col #country_drop_down .Select-value-icon:after{
+/* .app-left-col #country_drop_down .Select-value-icon:after{
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     content: "";
-}
+} */
 
 .app-left-col #country_drop_down .Select-value{
     text-transform: uppercase !important;

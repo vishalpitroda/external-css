@@ -1,4 +1,6 @@
-
+body{
+    background-color: rgb(227, 227, 227);
+}
 
 .head1 h1{
     padding: 2rem;
@@ -53,3 +55,9 @@
     bottom: 0;
     content: "";
 }
+
+.app-left-col #country_drop_down .Select-value-label{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+

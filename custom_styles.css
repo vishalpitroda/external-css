@@ -56,8 +56,8 @@ body{
     content: "";
 }
 
-.app-left-col #country_drop_down .Select-value-label{
-    text-transform: uppercase;
-    font-weight: bold;
+.app-left-col #country_drop_down .Select-value{
+    text-transform: uppercase !important;
+    font-weight: bold !important;
 }
 

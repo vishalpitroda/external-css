@@ -1,3 +1,5 @@
+
+
 .head1 h1{
     padding: 2rem;
     margin: auto;
@@ -15,10 +17,39 @@
     height: auto !important;
     padding: 2px;
 }
+
 .app-left-col #country_drop_down .Select.Select--multi{
     width: inherit !important;
 }
+
 .app-left-col #country_drop_down .Select-multi-value-wrapper{
     width: inherit !important;
 }
 
+.app-left-col #country_drop_down .Select-value{
+    background-color: #f6eef5;
+    color: #63345B;
+    border-color: #321a2e;
+    font-weight: 400;
+}
+
+.app-left-col #country_drop_down .Select-value-icon{
+    font-weight: bold;
+    text-transform: uppercase;
+    border-right: 1px solid  #321a2e;
+    font-size: 14px;
+}
+
+.app-left-col #country_drop_down .Select-value-icon:hover{
+    color: #fff;
+    background-color: #009933
+}
+
+.app-left-col #country_drop_down .Select-value-icon:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+}
